@@ -1,0 +1,33 @@
+header .container-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container-header .head-tab{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 327px;
+}
+
+header .container-header .head-tab .head-list .head-link{
+    color: #696871;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19.53px;
+    letter-spacing: -0.47px;
+    padding-bottom: 10px;
+}
+
+header .container-header .head-tab .head-list .head-link:hover{
+    color: #19191B;
+    border-bottom: 2px solid #5454D4;
+    padding-bottom: 10px;
+}
+
+header .container-header .head-btn{
+    padding: 19px 59px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}

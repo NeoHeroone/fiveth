@@ -1,0 +1,52 @@
+nav .container-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+nav .container-nav .nav-title{
+    width: 459px;
+    height: 461px;
+}
+
+nav .container-nav .nav-title .nav-title-text{
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 77px;
+    letter-spacing: -2.5010533332824707px;
+    text-align: left;
+}
+
+nav .container-nav .nav-title .nav-title-desc{
+    font-family: "Mulish", sans-serif !important;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.6252632141113281px;
+    color: #696871;
+    width: 459px;
+    margin-top: 30px;
+}
+
+nav .container-nav .nav-title .nav-buttons{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+nav .container-nav .nav-title .nav-buttons .btn-img{
+    cursor: pointer;
+}
+
+nav .container-nav .nav-title .nav-buttons .nav-btn{
+    background-color: #5454D4;
+    padding: 19px 60px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+nav .container-nav .nav-title .nav-buttons .nav-btn:hover{
+    background-color: #FF7143;
+}

@@ -1,0 +1,27 @@
+main .section2 .container-sect2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 0;
+    text-align: center;
+}
+
+main .section2 .container-sect2 .section2-cards .cards-name{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.7503160238265991px;
+    color: #19191B;
+    margin-top: 7px;
+    margin-bottom: 20px;
+}
+
+main .section2 .container-sect2 .section2-cards .card-desc{
+    font-family: "Mulish", sans-serif !important;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.5002105832099915px;
+    color: #696871;
+    width: 307px;
+}
