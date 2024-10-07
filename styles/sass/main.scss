@@ -1,8 +1,8 @@
-@import "./header.css";
-@import "./navbar.css";
-@import "./section1.css";
-@import "./section2.css";
-@import "./footer.css";
+@import "header";
+@import "navbar";
+@import "section1";
+@import "section2";
+@import "footer";
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
@@ -19,7 +19,8 @@ a{
     transition: .5s;
 }
 
-ul, ol{
+ul, 
+ol{
     list-style: none;
 }
 

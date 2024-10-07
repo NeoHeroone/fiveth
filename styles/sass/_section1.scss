@@ -1,0 +1,74 @@
+main {
+    
+    .section1 {
+
+        .container-sect1 {
+
+            .cards{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-top: 109px;
+                margin-bottom: 159px;
+            }
+
+            .boxes{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                .box-title{
+                    width: 556px;
+                }
+
+                .box-text{
+                    font-size: 50px;
+                    font-weight: 700;
+                    line-height: 57px;
+                    letter-spacing: -1.563158392906189px;
+                    text-align: left;
+                    color: #19191B;
+                }
+
+                .box-desc{
+                    font-family: "Mulish", sans-serif;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 30px;
+                    letter-spacing: -0.6252632141113281px;
+                    text-align: left;
+                    color: #696871;
+                    width: 459px;
+                    margin-top: 30px;
+                    margin-bottom: 30px;
+                }
+
+                .box-desc{
+                    font-family: "Mulish", sans-serif;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 30px;
+                    letter-spacing: -0.6252632141113281px;
+                    text-align: left;
+                    color: #696871;
+                    width: 459px;
+                    margin-top: 30px;
+                    margin-bottom: 30px;
+                }
+
+                .box-link{
+                    font-size: 17px;
+                    font-weight: 700;
+                    line-height: 22.13px;
+                    letter-spacing: -0.5314737558364868px;
+                    text-align: left;
+                    color: #5454D4;
+
+                    &:hover{
+                        color: #19191B;
+                    }
+                }
+            }
+        }
+    }
+}
